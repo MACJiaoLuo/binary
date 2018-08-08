@@ -8,7 +8,9 @@
 ```  
 git clone https://github.com/shadowsocks/shadowsocks-libev.git
 cd shadowsocks-libev
-git submodule update --init --recursive
+git submodule update --init --recursive 
+./autogen.sh
+./configure --disable-documentation
 ```  
 编译好各个依赖库文件。不通过可以试试cmake编译器
 Makefile文件加入 -llog 链接库不然报错。
