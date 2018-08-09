@@ -21,6 +21,7 @@ Makefile文件加入 -llog 链接库不然报错。
 //char *log         = profile.log;
 //USE_LOGFILE(log);
 ```  
+libcork目录中的makefile 链接静态库
 然后其他的看编译器报错出处，按需修改或者注释。  
 链接静态库文件编译。  
 收工。
